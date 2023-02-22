@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <h1>Calculator</h1>
+            <input type="text" name="screen" id="screen">
+            <table>
+                <tr>
+                    <td><Button class="operand" onclick="screen(event)">(</Button></td>
+                    <td><Button class="operand" onclick="screen(event)">)</Button></td>
+                    <td><Button class="operator" onclick="screen(event)">%</Button></td>
+                    <td><Button class="operator">CE</Button></td>
+                </tr>
+                <tr>
+                    <td> <Button class="operand" onclick="screen(event)">7</Button></td>
+                    <td> <Button class="operand" onclick="screen(event)">8</Button></td>
+                    <td> <Button class="operand" onclick="screen(event)"> 9</Button></td>
+                    <td > <Button class="operator" onclick="screen(event)">÷</Button></td>
+                </tr>
+                <tr>
+                    <td> <Button class="operand" onclick="screen(event)">4</Button></td>
+                    <td> <Button class="operand" onclick="screen(event)">5</Button></td>
+                    <td> <Button class="operand" onclick="screen(event)">6 </Button></td>
+                    <td> <Button class="operator"  onclick="screen(event)">*</Button></td>
+                </tr>
+                <tr>
+                    <td> <Button class="operand" onclick="screen(event)">1</Button></td>
+                    <td> <Button class="operand" onclick="screen(event)">2</Button></td>
+                    <td> <Button class="operand" onclick="screen(event)"> 3</Button></td>
+                    <td> <Button class="operator" onclick="screen(event)">-</Button></td>
+                </tr>
+                <tr>
+                    <td> <Button class="operand" onclick="screen(event)">0</Button></td>
+                    <td> <Button class="operand" onclick="screen(event)">.</Button></td>
+                    <td> <Button class="equals" onclick="screen(event)">=</Button></td>
+                    <td> <Button class="operator" onclick="screen(event)">+</Button></td>
+                </tr>
+
+            </table>
+
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
